@@ -2,7 +2,7 @@
 
 if __name__ == "__main__":
 
-    from calculator_1 import calculator
+    from calculator_1 import add,sub,mul,div
 
     a = int(a)
     b = int(b)
@@ -10,15 +10,8 @@ if __name__ == "__main__":
     a = 10
     b = 5
 
-    add = calculator.add()
-        add.append("{} + {} = {}" .format (a, b add(a, b)))
-
-    sub = calculator.sub()
-        sub.append("{} - {} = {}" .format (a, b sub(a, b)))
-    
-    mul = calculator.mul()
-        mul.append("{} * {} = {}" .format (a, b mul(a, b)))
-
-    div = calculator.div()
-        div.append("{} / {} = {}" .format (a, b div(a, b)))
+    print("{} + {} = {}" .format(a, b add(a, b)))
+    print("{} - {} = {}" .format(a, b sub(a, b)))
+    print("{} * {} = {}" .format(a, b mul(a, b)))
+    print("{} / {} = {}" .format(a, b div(a, b)))
 
