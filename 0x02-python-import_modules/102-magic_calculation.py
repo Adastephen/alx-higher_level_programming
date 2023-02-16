@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+if __name__ == "__main__":
+    """Match bycode provided"""
+    def magic_caldulation(a, b):
+        from magic_calculation_102 import add, sub
+
+        if a < b:
+            c =  add(a, b)
+            for i in range(4, 6):
+                c = add(c, i)
+                reiturn(c) 
+        else:
+            return(sub(a, b)
