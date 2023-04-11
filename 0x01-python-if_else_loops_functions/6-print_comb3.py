@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-for i in range(0, 99):
-    if i != 89:
-        if ((i % 10 != 0) and ((i / 10) < (i % 10))):
-            print("(0:02d)".format(i), end=', ')
-    else:
-        print("{}".format(i), end='')
+# Author - Tolulope Fakunle
+
+for digit1 in range(0, 10):
+    for digit2 in range(digit1 + 1, 10):
+        if digit1 == 8 and digit2 == 9:
+            print("{}{}".format(digit1, digit2))
+        else:
+            print("{}{}".format(digit1, digit2), end=", ")

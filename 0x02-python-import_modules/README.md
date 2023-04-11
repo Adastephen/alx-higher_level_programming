@@ -1,1 +1,1 @@
-0x02
+# Solutions to tasks on modules

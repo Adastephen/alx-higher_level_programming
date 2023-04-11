@@ -1,2 +1,1 @@
-this is the first task project directory
-
+0x00. Python - Hello, World
