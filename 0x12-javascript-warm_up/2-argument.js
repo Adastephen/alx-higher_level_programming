@@ -2,11 +2,12 @@
 
 // print a message depending of the number of argument passed:
 // import an anonymous module
-const process = require('process');
 
-if (process.argv === null) {
-	console.log('No argument');
+const prog = process.argv.length;
+
+if (prog === 2) {
+	console.log('No argument')
 }
-else {
+else if (prog > 2) {
 	console.log('Argument found');
 }
